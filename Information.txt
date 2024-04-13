@@ -1,0 +1,15 @@
+Social Media App ->
+--> User Rest Api
+        Retrieve all Users -> Get/users
+        Create a User -> Post/users
+        Retrieve one Users -> Get/users/{id}
+        Delete a User -> Delete/users/{id}
+--> Posts Rest API
+        Retrieve all posts for a User -> Get/Users/{id}/posts
+        Create a post foa a User -> Post/users/{id}/posts
+        Retrieve details of a post -> Get/users/{id}/posts/{post_id}
+
+---> User:
+        Integer id
+        Name
+        Birthday
